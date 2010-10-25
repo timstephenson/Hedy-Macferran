@@ -1,0 +1,12 @@
+{
+    "Web": {
+        "pageTitle": "Hedy Macferran",
+        "homeLinks": [
+             {"text":"<span class=\"homeLink1\">HEDY MACFERRAN</span>","overColor":"EB0A44"},
+             {"text":"<span class=\"homeLink2\">TOAST & FLURRY</span>","overColor":"26251C"},
+             {"text":"<span class=\"homeLink3\">OPTIONS</span>","overColor":"F2643D"},
+             {"text":"<span class=\"homeLink4\">BLATHER</span>","overColor":"F2A73D"},
+             {"text":"<span class=\"homeLink5\">connect</span>","overColor":"A0E8B7"}
+        ]
+    }
+}

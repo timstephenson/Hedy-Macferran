@@ -6,7 +6,11 @@ package com.hedymacferran.website.controller
 	{
 		public function ExampleCommand()
 		{
-			
+		
+		}
+		
+		public function exampleTest():String {
+			return "Example";
 		}
 	}
 }

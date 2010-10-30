@@ -27,9 +27,13 @@ package com.hedymacferran.tests
 			assertTrue("ExampleCommand instantiated", instance is ExampleCommand);
 		}
 
-		public function test():void 
-		{
-			assertTrue("failing test", false);
+//		public function test():void 
+//		{
+//			assertTrue("failing test", false);
+//		}
+		
+		public function testExampleTest():void {
+			assertEquals("Shoule be Example.", "Example", instance.exampleTest());
 		}
 	}
 }

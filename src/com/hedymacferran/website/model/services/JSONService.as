@@ -16,7 +16,7 @@ package com.hedymacferran.website.model.services
 		override public function getHomeLinks(data:String, homeCSS:StyleSheet):Vector.<HomeLinkVO>
 		{
 			var homeLinks:Vector.<HomeLinkVO> = new Vector.<HomeLinkVO>;
-			var jsonData:Object = JSON.decode(data);
+			var jsonData:Object = decodeData(data);
 
 			for each(var item:Object in jsonData.Web.homeLinks)
 			{
@@ -25,6 +25,10 @@ package com.hedymacferran.website.model.services
 			}
 			
 			return homeLinks;
+		}
+		
+		public function decodeData(data:String):Object {
+			return JSON.decode(data);
 		}
 	}
 }

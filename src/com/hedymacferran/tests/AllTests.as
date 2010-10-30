@@ -10,6 +10,7 @@ package com.hedymacferran.tests {
 			addTest(new HedyModelTest());
 			addTest(new DataServiceTest());
 			addTest(new JSONServiceTest());
+			addTest(new CSSServiceTest());
 		}
 	}
 }

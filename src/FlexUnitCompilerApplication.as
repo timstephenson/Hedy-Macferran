@@ -12,9 +12,11 @@ package
 	import com.hedymacferran.tests.HedyModelTest;
 	import com.hedymacferran.tests.DataServiceTest;
 	import com.hedymacferran.tests.JSONServiceTest;
+	import com.hedymacferran.tests.CSSServiceTest;
 	
 	public class FlexUnitCompilerApplication extends Sprite
 	{
+		private var com_hedymacferran_tests_CSSServiceTest_obj:com.hedymacferran.tests.CSSServiceTest;
 		private var com_hedymacferran_tests_JSONServiceTest_obj:com.hedymacferran.tests.JSONServiceTest;
 		private var com_hedymacferran_tests_DataServiceTest_obj:com.hedymacferran.tests.DataServiceTest;
 		
